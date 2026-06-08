@@ -11,3 +11,7 @@ results/*.json
 results/*.pt
 !results/.gitkeep
 *.log
+
+# Virtual environments (any name)
+.venv*/
+*venv/
