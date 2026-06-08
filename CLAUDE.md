@@ -65,7 +65,7 @@ connection is sufficient.
 - Each machine: 2-4 cores, 8-16 GB RAM, no GPU — **x86 or ARM** (mixed architectures are fine;
   the portable SIMD kernels from Phase 5 run on both)
 - Network: regular WiFi (10-100 Mbps) or ethernet
-- Coordinator: a MacBook Air M4 (ARM64); Pentium Gold remains the benchmark reference
+- Coordinator: a MacBook Air M4 (ARM64); benchmarks run on the M4 and CI-verified commodity x86
 - Workers: 1-2 friend laptops borrowed for the demo (any CPU architecture)
 
 This is NOT trying to match GPU cluster throughput. It's proving the

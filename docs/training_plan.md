@@ -53,8 +53,8 @@ Total bytes per step per worker: ~200 bytes. A 56kbps modem could handle it.
 
 ## Target Setup
 
-- Coordinator: Calyx's Pentium Gold laptop
-- Workers: 1-2 borrowed laptops
+- Coordinator: a MacBook Air M4 (ARM64)
+- Workers: 1-2 borrowed laptops — any commodity x86 or ARM CPU
 - Network: campus WiFi
 - Model: Phase 3 delta predictor (~50-100M params)
 - Training objective: MSE on synthetic frame deltas
